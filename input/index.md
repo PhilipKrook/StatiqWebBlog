@@ -3,3 +3,9 @@
 # Hello World!
 
 Hello from my first Statiq page.
+
+---
+
+# New post?
+
+Test

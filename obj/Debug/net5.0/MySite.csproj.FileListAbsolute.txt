@@ -421,3 +421,4 @@ C:\DeveloperArea\MySite\obj\Debug\net5.0\MySite.dll
 C:\DeveloperArea\MySite\obj\Debug\net5.0\ref\MySite.dll
 C:\DeveloperArea\MySite\obj\Debug\net5.0\MySite.pdb
 C:\DeveloperArea\MySite\obj\Debug\net5.0\MySite.genruntimeconfig.cache
+C:\DeveloperArea\MySite\obj\Debug\net5.0\MySite.csprojAssemblyReference.cache
