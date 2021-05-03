@@ -1,6 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Statiq.App;
 using Statiq.Web;
+using System;
+using System.Linq;
+using Statiq.Common;
 
 namespace MySite
 {
@@ -10,6 +13,7 @@ namespace MySite
           await Bootstrapper
             .Factory
             .CreateWeb(args)
+            .AddSetting(Keys.LinksUseHttps, true)
             .RunAsync();
     }
 }
