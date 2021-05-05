@@ -1,18 +1,18 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    @Html.Partial("_partials/_head")
+    @Html.Partial("partials/head")
     @RenderSection("head", required: false)
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen">
     <header>
-        @Html.Partial("_partials/_header")
+        @Html.Partial("partials/header")
     </header>
     <main  class="flex-grow">
         @RenderBody()
     </main>
     <footer>
-        @Html.Partial("_partials/_footer")
+        @Html.Partial("partials/footer")
     </footer>
 </body>
 </html>
