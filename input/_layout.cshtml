@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @Html.Partial("_partials/_head")
+    @RenderSection("head", required: false)
+</head>
+<body class="bg-gray-50">
+    @Html.Partial("_partials/_header")
+
+    @RenderBody()
+    @Html.Partial("_partials/_footer")
+</body>
+</html>
