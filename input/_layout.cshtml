@@ -4,10 +4,15 @@
     @Html.Partial("_partials/_head")
     @RenderSection("head", required: false)
 </head>
-<body class="bg-gray-50">
-    @Html.Partial("_partials/_header")
-
-    @RenderBody()
-    @Html.Partial("_partials/_footer")
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <header>
+        @Html.Partial("_partials/_header")
+    </header>
+    <main  class="flex-grow">
+        @RenderBody()
+    </main>
+    <footer>
+        @Html.Partial("_partials/_footer")
+    </footer>
 </body>
 </html>
