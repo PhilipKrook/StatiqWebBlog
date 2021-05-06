@@ -13,7 +13,7 @@ namespace MySite
           await Bootstrapper
             .Factory
             .CreateWeb(args)
-            .AddSetting(Keys.LinksUseHttps, true)
+            /*.AddSetting(Keys.LinksUseHttps, true)*/
             .RunAsync();
     }
 }
