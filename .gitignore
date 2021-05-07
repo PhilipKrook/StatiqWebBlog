@@ -4,4 +4,3 @@ bin
 obj
 appsettings.Development.json
 node_modules
-output
