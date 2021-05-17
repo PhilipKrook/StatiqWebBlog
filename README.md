@@ -1,2 +1,5 @@
 # MySite
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9277f8a7-1b6c-4adb-980e-2cca4ba45f82/deploy-status)](https://app.netlify.com/sites/happy-bardeen-f76fdb/deploys)
+
+dotnet run -- preview
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8838c729-8ca8-4008-90d2-1a37239412f7/deploy-status)](https://app.netlify.com/sites/youthful-wescoff-2f6663/deploys)
